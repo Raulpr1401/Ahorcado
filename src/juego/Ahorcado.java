@@ -52,7 +52,7 @@ public class Ahorcado {
 		            }
 
 		            char letra = entrada.charAt(0);
-
+ 
 		            if (letrasUsadas.indexOf(String.valueOf(letra)) != -1) {
 		                System.out.println("Ya has usado esa letra.");
 		                continue;
@@ -75,9 +75,9 @@ public class Ahorcado {
 
 		        System.out.println("\n" + dibujo(fallos));
 		        if (oculta.indexOf("_") == -1) {
-		            System.out.println("¡Enhorabuena! Has adivinado: " + palabra);
+		            System.out.println("¡FELICIDADES! Has adivinado: " + palabra);
 		        } else {
-		            System.out.println("Has perdido. La palabra era: " + palabra);
+		            System.out.println("DERROTA. La palabra era: " + palabra);
 		        }
 		    }
 
